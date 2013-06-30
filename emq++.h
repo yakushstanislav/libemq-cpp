@@ -33,6 +33,7 @@ extern "C"
 #include <emq/emq.h>
 }
 
+#include <iostream>
 #include <vector>
 
 #define LIBEMQ_CPP_VERSION_MAJOR 1
