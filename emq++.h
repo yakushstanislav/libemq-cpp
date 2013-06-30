@@ -632,7 +632,7 @@ private:
 	emq_client *client;
 };
 
-bool compatible()
+static bool compatible()
 {
 	return emq_version() == LIBEMQ_COMPATIBLE_VERSION;
 }
